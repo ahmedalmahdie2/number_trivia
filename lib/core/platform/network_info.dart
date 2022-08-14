@@ -5,4 +5,6 @@
  *  * Copyright (c) 2022. All rights reserved.
  *
  */
-abstract class NetworkInfo {}
+abstract class NetworkInfo {
+  Future<bool> get isConnected;
+}
